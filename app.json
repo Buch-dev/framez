@@ -22,7 +22,11 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.buchmann.framez"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -41,8 +45,9 @@
       "clerkPublishableKey": "pk_test_YXBwYXJlbnQtbWFsbGFyZC03Ni5jbGVyay5hY2NvdW50cy5kZXYk",
       "convexUrl": "https://focused-dolphin-528.convex.cloud",
       "eas": {
-        "projectId": "your-project-id"
+        "projectId": "1a8168b6-d773-4cbe-9b67-4062a02fd530"
       }
-    }
+    },
+    "owner": "buchmann"
   }
 }
