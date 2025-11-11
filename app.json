@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "framez",
     "name": "framez",
     "slug": "framez",
     "version": "1.0.0",
@@ -25,6 +26,23 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app needs access to your photos to upload images.",
+          "cameraPermission": "The app needs access to your camera to take photos."
+        }
+      ]
+    ],
+    "extra": {
+      "clerkPublishableKey": "pk_test_YXBwYXJlbnQtbWFsbGFyZC03Ni5jbGVyay5hY2NvdW50cy5kZXYk",
+      "convexUrl": "https://focused-dolphin-528.convex.cloud",
+      "eas": {
+        "projectId": "your-project-id"
+      }
     }
   }
 }
