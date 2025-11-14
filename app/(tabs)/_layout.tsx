@@ -17,7 +17,7 @@ export default function TabLayout() {
           borderBottomColor: '#DBDBDB',
           height: Platform.OS === 'ios' ? 88 : 60,
           paddingTop: Platform.OS === 'ios' ? 44 : 8, // Adjust for status bar
-          paddingBottom: 8,
+          paddingBottom: 'auto',
         },
       }}
     >
