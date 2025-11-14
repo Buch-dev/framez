@@ -10,13 +10,14 @@ export default function TabLayout() {
         tabBarActiveTintColor: '#262626',
         tabBarInactiveTintColor: '#8E8E8E',
         tabBarShowLabel: false,
+        tabBarPosition: 'top', // Move tabs to top
         tabBarStyle: {
           backgroundColor: '#FFFFFF',
-          borderTopWidth: 1,
-          borderTopColor: '#DBDBDB',
+          borderBottomWidth: 1,
+          borderBottomColor: '#DBDBDB',
           height: Platform.OS === 'ios' ? 88 : 60,
-          paddingBottom: Platform.OS === 'ios' ? 28 : 8,
-          paddingTop: 8,
+          paddingTop: Platform.OS === 'ios' ? 44 : 8, // Adjust for status bar
+          paddingBottom: 8,
         },
       }}
     >
